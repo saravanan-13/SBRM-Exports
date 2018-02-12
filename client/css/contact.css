@@ -1,0 +1,43 @@
+
+.location{
+    margin-top: 100px;
+    padding: 100px 40px;
+    width: 101%;
+    background-color: lightblue;
+}
+
+.map i , .phone i,.mail i{
+    font-size: 50px;
+    margin-left: 170px;
+}
+
+.map p , .phone p,.mail p{
+    margin-left: 70px;
+}
+.map span, .phone span,.mail span{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.phone i{
+    margin-left: 200px;
+}
+.phone p {
+    margin-left: 120px;
+}
+
+.mail p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+.mail i{
+    margin-left: 190px;
+}
+.mail span{
+    margin-left: 90px;
+}
+
+.map{
+    margin-bottom: -80px;
+}
+

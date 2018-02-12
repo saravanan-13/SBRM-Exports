@@ -1,0 +1,49 @@
+<div data-ng-include="'views/navbar.html'"></div>
+<div ng-controller="homeController as ctrl">
+
+<!-- Location -->
+    <div class="row location">
+        <div class="col-md-4 map">
+            <i class="fa fa-map-marker"></i>
+            <br><br>
+            <p><span style="font-size: 25px; margin-left: 25px;"><strong>SBRM Exports</strong></span>
+                <br>
+                <span>Sorathur , Panruti Taluk , </span>
+                <span>Cuddalore </span>
+                <br>
+                <span style="margin-left: 15px;"> TamilNadu , Pincode : 607805</span>
+            </p>
+            </div>
+
+        <div class="col-md-4 phone">
+            <i class="fa fa-phone"></i>
+            <br><br>
+            <p> <span style="font-size: 25px; margin-left: 25px;"><strong>OUR PHONE</strong></span>
+                <br>
+                <span style="margin-left: 15px;">9047510722 , 8883325979  </span>
+                <br>
+                <span style="margin-left: 60px;">9047069649</span>
+            </p>
+        </div>
+        <div class="col-md-4 mail">
+            <i class="fa fa-envelope"></i>
+            <br><br>
+            <p><span style="font-size: 25px; margin-left: 110px;"><strong>OUR E-Mail</strong></span>
+                <br>
+                <span> <strong>sbrmexports@gmail.com</strong></span></p>
+        </div>
+
+    </div>
+    <!-- Location -->
+    <!-- Map -->
+    <div class="map">
+        <div map-lazy-load="https://maps.google.com/maps/api/js"
+             map-lazy-load-params="{{googleMapsUrl}}">
+            <ng-map center="11.642330, 79.501321" zoom="11" style="height: 500px;">
+                <marker position="11.642330, 79.501321"></marker>
+            </ng-map>
+        </div>
+    </div>
+      <!-- Map -->
+</div>
+<div data-ng-include="'views/footer.html'"></div>

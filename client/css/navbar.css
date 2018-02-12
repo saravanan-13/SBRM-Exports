@@ -1,0 +1,30 @@
+.navbar-brand {
+    left:calc(50% - 45px);
+    position: absolute;
+    padding:0;
+    top:-15px;
+}
+
+.navbar-brand>img{
+    height: 400%;
+    width: auto;
+    margin-top:-7px;
+}
+
+.nav{
+    padding:10px  10px;
+}
+
+.hov{
+    margin: 0 30px;
+    padding-top: 10px;
+    transition: padding 0.25s, margin-bottom 0.25s;
+}
+#nav-about,#nav-company,#nav-contact,#nav-products,#nav-login,#nav-home{
+    padding: 0 5px 5px 5px;
+}
+
+#nav-about:hover ,#nav-home:hover,#nav-login:hover,#nav-products:hover,#nav-contact:hover,#nav-company:hover{
+    color: #0e90d2;
+    border-bottom: 3px solid #0e90d2;
+}
